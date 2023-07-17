@@ -1,0 +1,27 @@
+.DetailsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.DetailsContainer div {
+    flex: 50%;
+}
+
+.ImageDetails {
+    height: 500px;
+    width: 500px;
+}
+
+.ImageDetails img {
+    height: 100%;
+    width: 100%;
+}
+
+.parts h1,
+p,
+span {
+    margin: 20px;
+
+}

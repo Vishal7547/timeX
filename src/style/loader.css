@@ -1,0 +1,28 @@
+.loader {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.loader h1 {
+    color: #000;
+    font-size: 3rem;
+    animation: infinite-animation 0.5s ease-in-out infinite;
+}
+
+@keyframes infinite-animation {
+    0% {
+        font-size: 3rem;
+
+    }
+
+
+    100% {
+        font-size: 6rem;
+
+    }
+}

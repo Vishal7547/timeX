@@ -1,0 +1,72 @@
+.productContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.productTeaser {
+    width: 350px;
+    border: 2px solid black;
+    margin: 4px;
+    transition: all 0.9s;
+}
+
+
+.productTeaser:hover {
+    transform: scale(0.9);
+}
+
+.images {
+    height: 400px;
+    width: 300px;
+    margin: auto;
+}
+
+.images img {
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+.title {
+    margin: auto;
+    width: 100%;
+}
+
+.title span {
+    color: black;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+
+}
+
+
+
+.price span {
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    background-color: crimson;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: rgb(192, 33, 65);
+}
